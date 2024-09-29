@@ -22,4 +22,7 @@ class BankAccount(var accountHolder: String, var balance: Double) {
             println(i)
         }
     }
+    fun acctBalance(): Double {
+        return balance
+    }
 }
